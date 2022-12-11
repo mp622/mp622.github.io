@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+* {
+
+	margin: 0;
+
+	padding: 0;
+
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+html {
+
+	background: #8A2BE2;
+
+	background: -webkit-linear-gradient(120deg, rgba(245,245,245,0.3) 35%, rgba(0,0,0,0) 28%, rgba(0,0,0,0) 59%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), #A52A2A;
+
+	background: -moz-linear-gradient(120deg, rgba(245,245,245,0.5) 45%, rgba(0,0,0,0) 28%, rgba(0,0,0,0) 80%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), #00FFFF;
+
+	background: linear-gradient(120deg, rgba(235,225,265,0.5) 45%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 69%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgb(253, 215, 3) 0), #FFD700;
+
+	background-attachment: fixed;
+
+}
+
+html::after {
+
+	content: " ";
+
+	display:block;
+
+	height: 5em;
+
+}
+
+a {
+
+	color: #FF00FF;
+
+}
+
+#content {
+
+	padding: 0 5%;
+
+}
+
+#header {
+
+	background: #191970;
+
+	width: 100%;
+
+	color: blue;
+
+	text-align: center;
+
+	padding: 35px 0;
+
+	text-shadow: 2px 2px yellow;
+
+}
+
+#result {
+
+	display: block;
+
+	margin: 0 auto;
+
+	cursor: pointer;
+
+	box-shadow: 0px 0px 10px black;
+
+}
+
+#result canvas {
+
+	position: absolute;
+
+}
+
+#button {
+
+	display: inline-block;
+
+	padding: 8px 13px;
+
+	color: re;
+
+	cursor: pointer;
+
+	border-radius: 6px;
+
+	-moz-border-radius: 6px;
+
+	-webkit-border-radius: 6px;
+
+	background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgb(170, 204, 0);
+
+	background: -moz-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgb(170, 204, 0);
+
+	background: linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgb(170, 204, 0);
+
+}
+
+#button:hover {
+
+	background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgb(244, 228, 7);
+
+	background: -moz-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgb(241, 228, 7);
+
+	background: linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), rgb(191, 228, 7);
+
+}
+
+#footer {
+
+	position: fixed;
+
+	bottom: 0;
+
+	background: #87CEFA;
+
+	color: #FF00FF;
+
+	width: 100%;
+
+	height: auto;
+
+	padding: 5px 0;
+
+}
+
+#footer p {
+
+	padding: 0 5px;
+
+}
