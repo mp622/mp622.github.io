@@ -1,1 +1,0 @@
-santai aja wir
